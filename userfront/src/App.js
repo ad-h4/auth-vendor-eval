@@ -3,22 +3,22 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Userfront from '@userfront/react';
 
-Userfront.init("5nxy5qb7");
+Userfront.init("tenant_id");
 
 const SignupForm = Userfront.build({
-  toolId: "nabnkn"
+  toolId: "toolid"
 });
 
 const LoginForm = Userfront.build({
-  toolId: "kloadb"
+  toolId: "toolid"
 });
 
 const LogoutButton = Userfront.build({
-  toolId: "mnkmld"
+  toolId: "toolid"
 });
 
 const PasswordResetForm = Userfront.build({
-  toolId: "drmlkn"
+  toolId: "toolid"
 });
 
 export default function App() {
